@@ -1,0 +1,20 @@
+{
+  "name": "actix-and-deno-vs-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "do-work.js",
+  "scripts": {
+    "start:rust": "cargo run",
+    "bench:rust": "autocannon http://localhost:8080",
+    "start:js": "node js/index.js",
+    "bench:js": "autocannon http://localhost:8081"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "autocannon": "^7.10.0"
+  }
+}

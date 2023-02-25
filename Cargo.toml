@@ -1,0 +1,12 @@
+[package]
+name = "actix-and-deno-vs-express"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4"
+deno_core = "0.171.0"
+deno_runtime = "0.97.0"
+serde_json = "1.0.93"
